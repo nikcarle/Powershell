@@ -9,3 +9,5 @@ Function New-File{
         $_
     }
 }
+
+New-Alias -Name "touch" -Value "new-file"
